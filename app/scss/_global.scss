@@ -1,0 +1,58 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+html, 
+body{
+    height: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul,
+li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+
+}
+h1, h2, h3{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1310px;
+}
+.container-fluid{
+    margin: 0 auto;
+    padding: 0 30px;
+    max-width: 100%;
+}
